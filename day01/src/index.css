@@ -1,0 +1,11 @@
+@import './a.css';
+body{
+  background: #ccc;
+  /* transform:  rotate(45deg); */
+  /* background: url('./favicon.ico')  no-repeat */
+}
+div{
+  width: 100px;
+  height: 100px;
+  background: url('./favicon.ico')  no-repeat
+}

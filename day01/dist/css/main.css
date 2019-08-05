@@ -1,0 +1,11 @@
+
+body{
+  background: #ccc;
+  /* transform:  rotate(45deg); */
+  /* background: url('./favicon.ico')  no-repeat */
+}
+div{
+  width: 100px;
+  height: 100px;
+  background: url(http://www.zhztest.clubimg/e69caad040fd77ad89a72ee5b1eb001a.ico)  no-repeat
+}
