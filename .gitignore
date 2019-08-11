@@ -10,3 +10,5 @@ node_modules/
 webpack-dev/node_modules/
 .vscode/
 webpack-tapable/node_modules
+loader-webpack/node_modules/
+webpack-plugin/node_modules/

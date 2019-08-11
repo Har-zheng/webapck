@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\zhz\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add webbpack webpack-cli -D
+
+PATH: 
+  D:\download\cmder\bin;D:\download\cmder\vendor\bin;D:\download\cmder\vendor\conemu-maximus5\ConEmu\Scripts;D:\download\cmder\vendor\conemu-maximus5;D:\download\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;E:\Program Files\mysql-8.0.16-winx64\bin\;C:\Users\zhz\AppData\Local\Programs\Python\Python37\;C:\Users\zhz\AppData\Local\Programs\Python\python27\;C:\Users\zhz\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\zhz\AppData\Local\Programs\Python\Python27\Scripts\;D:\download\cmder;C:\Users\zhz\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\zhz\AppData\Local\Programs\Python\Python37\;C:\Users\zhz\AppData\Local\Microsoft\WindowsApps;C:\Users\zhz\AppData\Roaming\npm;C:\Users\zhz\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\zhz\AppData\Local\Programs\Fiddler;C:\Users\zhz\AppData\Local\Programs\Python\Python27\;C:\Users\zhz\AppData\Local\Programs\Python\Python27\Scripts\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;D:\download\cmder
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/webbpack: Not found
+      at Request.params.callback [as _callback] (C:\Users\zhz\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66830:18)
+      at Request.self.callback (C:\Users\zhz\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140464:22)
+      at Request.emit (events.js:189:13)
+      at Request.<anonymous> (C:\Users\zhz\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141436:10)
+      at Request.emit (events.js:189:13)
+      at IncomingMessage.<anonymous> (C:\Users\zhz\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141358:12)
+      at Object.onceWrapper (events.js:277:13)
+      at IncomingMessage.emit (events.js:194:15)
+      at endReadableNT (_stream_readable.js:1125:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "webpack-plugin",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
